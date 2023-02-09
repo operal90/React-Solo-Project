@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;  
+}
+
+.nav {
+  background: #F55A5A;
+  display: flex;
+  align-items: center;
+}
+
+
+.test{
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: -20px;
+}
+
+ .main {
+  padding: 30px 40px 20px 70px;
+  display: flex;
+  gap: 0px;
+}
+
+.image--photo {
+  width: 150px;
+  height: 200px; 
+  border-radius: 5px;
+ 
+}
+
+.main--ope {
+  display: flex;
+  align-items: center;
+} 
+
+ .image--fill {  
+ width: 16px;
+}
+
+.link {
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #2B283A;
+  padding-left: 5px;
+}
+
+.link a {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  padding: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.main--div {
+  font-family: 'Inter';
+  font-size: 15px;
+  color: #2B283A;
+  line-height: 40px;
+ 
+}
+
+.main--date {
+  font-weight: bold;
+}
+
+
+.main--para {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15.24px;
+line-height: 150%;
+color: #2B283A;
+max-width: 450px;
+} 
+
+@media screen and (max-width: 375px) {
+  .main {
+   display: grid;
+   padding: 20px 40px 20px 20px;
+   margin-bottom: -10px;
+  }
+
+  .image--photo {
+    width: 150px;
+    height: 200px; 
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-bottom: -10px;
+   
+  }
+}
